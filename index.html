@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+  <title>NEWS</title>
+</head>
+
+<body>
+  
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="#"><b>DailyNews</b></a>
+   
+
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+                <a class="nav-link" href="sports.html">Sports<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+                <a class="nav-link" href="business.html">Business<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+                <a class="nav-link" href="entertainment.html">Entertainment<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item active">
+                <a class="nav-link" href="technology.html">Technology<span class="sr-only">(current)</span></a>
+        </li>
+        </ul>
+    </div>
+  </nav>
+
+  <div class="container my-3">
+    <h3>Top News by <span class="badge badge-primary">DailyNews</span></h3>
+    <hr>
+    <div class="accordion" id="newsAccordion"></div>
+  </div>
+  <div id="google_element"></div>
+ 
+  <style>
+        body{
+                
+                background-image: url("https://images.unsplash.com/photo-1586339949916-3e9457bef6d3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80");
+                
+        }
+        .accordion{
+                background:none;
+        }
+        h3{
+                color: aqua;
+        }
+        .navbar-brand{
+                font-size: xx-large;
+                font-family:serif;
+
+        }
+        .badge{
+                font-family:serif;
+                font-size: x-large;
+        }
+      
+  </style>
+  <script src="https://translate.google.com/translate_a/element.js?cb=loadGoogleTranslate"></script>
+  <script>
+          function loadGoogleTranslate(){
+                  new google.translate.TranslateElement("google_element");
+          }
+  </script>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+  <script src="index.js"></script>
+</body>
+
+</html>
